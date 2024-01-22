@@ -1,0 +1,93 @@
+.top {
+  background-color: orange; /* Set background color for the top section */
+  color: #fff; /* Set text color for the top section */
+  padding: 10px; /* Add padding for better spacing */
+}
+.topLogo img {
+  height: 50px; /* Adjust the height of the logo as needed */
+}
+.nav nav {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+.nav a {
+  text-decoration: none;
+  color: #fff; /* Set text color for the navigation links */
+  margin-right: 20px; /* Adjust spacing between navigation links */
+}
+.background {
+  background-color: #eee; /* Set background color for the background section */
+  padding: 50px; /* Add padding for better spacing */
+}
+.middle {
+  padding: 20px; /* Add padding for better spacing */
+}
+.three {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+}
+.threeBox {
+  flex-basis: 30%; /* Adjust width of the boxes */
+}
+.recipeBox {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+  justify-content: space-between; /* Distribute items evenly */
+  padding: 20px; /* Add padding for better spacing */
+}
+.Box {
+  flex-basis: 30%; /* Adjust width of the boxes */
+  margin-bottom: 20px; /* Adjust spacing between boxes */
+}
+.end {
+  background-color: orange; /* Set background color for the end section */
+  color: #fff; /* Set text color for the end section */
+  padding: 20px; /* Add padding for better spacing */
+}
+.endBox {
+  flex-basis: 30%; /* Adjust width of the boxes */
+  margin-bottom: 20px; /* Adjust spacing between boxes */
+}
+  h1 {
+    font-size: 30px;
+    background-color: white;
+    margin: 0;
+    color: black;
+  }
+  .bottom {
+    background-color: orange; /* Set background color for the bottom section */
+    color: #fff; /* Set text color for the bottom section */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  .bottomNav {
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    margin-top: 10px; /* Add spacing between the bottom content and bottom navigation */
+  }
+  .bottomNav a {
+    text-decoration: none;
+    color: #fff; /* Set text color for the bottom navigation links */
+    margin: 0 15px; /* Adjust spacing between bottom navigation links */
+  }
+  .threeBox img,
+.Box img,
+.endBox img {
+  max-width: 100%; /* Make sure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Make sure the image doesn't exceed the height of its container */
+  width: auto; /* Allow the image to scale proportionally based on the container width */
+  height: auto; /* Allow the image to scale proportionally based on the container height */
+  display: block; /* Remove extra space beneath the image */
+  margin: 0 auto; /* Center the image horizontally within the box */
+}
+
+/* Style for the small boxes */
+.threeBox,
+.Box,
+.endBox {
+  border: 1px solid #ddd; /* Add a border for a visual separation */
+  padding: 10px; /* Add padding for spacing around the image */
+  text-align: center; /* Center-align content within the box */
+  background-color: #fff; /* Set a background color for the boxes */
+  margin-bottom: 20px; /* Adjust spacing between boxes */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lifted effect */
+}
