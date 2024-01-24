@@ -1,19 +1,35 @@
 .top {
-  background-color: orange; /* Set background color for the top section */
-  color: #fff; /* Set text color for the top section */
-  padding: 10px; /* Add padding for better spacing */
+  display: flex;
+  align-items: center;
+  background-color: orange; 
+  color: black;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 0;
 }
 .topLogo img {
-  height: 50px; /* Adjust the height of the logo as needed */
+  height: 90px;
+  width: auto;
+  margin-left: 5%;
 }
 .nav nav {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center; 
+  padding: 10px;
+  margin: 0;
 }
 .nav a {
   text-decoration: none;
-  color: #fff; /* Set text color for the navigation links */
-  margin-right: 20px; /* Adjust spacing between navigation links */
+  color: black; 
+  margin-right: 20px; 
+  text-align: right;
 }
 .background {
   background-color: #eee; /* Set background color for the background section */
@@ -21,73 +37,266 @@
 }
 .middle {
   padding: 20px; /* Add padding for better spacing */
+margin-left: 5%;
 }
-.three {
-  display: flex;
-  justify-content: space-between; /* Distribute items evenly */
+
+h2 {
+  font-size: 36px; 
+  font-weight: bold;
+}
+p {
+  font-size: 22px; 
 }
 .threeBox {
-  flex-basis: 30%; /* Adjust width of the boxes */
+  flex-basis: 30%;
+  text-align: center; 
+  margin-bottom: 20px;
 }
-.recipeBox {
+.threeBox img {
+  object-fit: cover;
+  max-width: 100%; 
+  max-height: 100%;
+  width: 440px; 
+  height: 300px; 
+  display: block; 
+margin: 0 auto; 
+}
+
+.three {
   display: flex;
-  flex-wrap: wrap; /* Allow boxes to wrap to the next line */
-  justify-content: space-between; /* Distribute items evenly */
-  padding: 20px; /* Add padding for better spacing */
+  justify-content: space-evenly; 
+}
+
+.recipeBox {
+  background-color: rgb(172, 168, 168);
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  padding: 20px; 
+}
+h5 {
+  width: 100%;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: -5px;
+ 
+}
+.recipeText {
+  margin-left: 95px;
 }
 .Box {
-  flex-basis: 30%; /* Adjust width of the boxes */
-  margin-bottom: 20px; /* Adjust spacing between boxes */
+  padding: 0;
+  text-align: center; 
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.Box img {
+  
+  height: 250px;
+  width: 370px;
+  display: block;  
+
+  object-fit: cover;
+}
+h6 {
+font-size: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.end h8 {
+
+  font-size: 36px;
+  font-style: bold;
+  padding-top: 200px;
+}
+
+.endBox {
+  background-color: lightgray;
+  text-align: center; 
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.endBox img {
+  object-fit: cover;
+  max-width: 100%; 
+  max-height: 100%;
+  width: 480px; 
+  height: 300px; 
+  display: block; 
+margin: 0 auto; 
 }
 .end {
-  background-color: orange; /* Set background color for the end section */
-  color: #fff; /* Set text color for the end section */
-  padding: 20px; /* Add padding for better spacing */
+  display: block;
+  justify-content: space-evenly;
+  padding-top: 20px;
 }
-.endBox {
-  flex-basis: 30%; /* Adjust width of the boxes */
-  margin-bottom: 20px; /* Adjust spacing between boxes */
+.endPic {
+  display: flex;
+  justify-content: space-evenly; 
 }
-  h1 {
-    font-size: 30px;
-    background-color: white;
-    margin: 0;
-    color: black;
-  }
+.endText {
+  margin-left: 95px;
+}
+.endBox h7 {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
   .bottom {
-    background-color: orange; /* Set background color for the bottom section */
-    color: #fff; /* Set text color for the bottom section */
-    padding: 20px; /* Add padding for better spacing */
+    background-color: orange; 
+    color: black; 
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .bottomNav {
     display: flex;
-    justify-content: center; /* Center align items horizontally */
-    margin-top: 10px; /* Add spacing between the bottom content and bottom navigation */
+    justify-content: center; 
+    margin-top: 10px; 
+    align-items: center;
   }
   .bottomNav a {
     text-decoration: none;
-    color: #fff; /* Set text color for the bottom navigation links */
-    margin: 0 15px; /* Adjust spacing between bottom navigation links */
+    color: #fff; 
+    margin: 0 15px; 
   }
-  .threeBox img,
-.Box img,
-.endBox img {
-  max-width: 100%; /* Make sure the image doesn't exceed the width of its container */
-  max-height: 100%; /* Make sure the image doesn't exceed the height of its container */
-  width: auto; /* Allow the image to scale proportionally based on the container width */
-  height: auto; /* Allow the image to scale proportionally based on the container height */
-  display: block; /* Remove extra space beneath the image */
-  margin: 0 auto; /* Center the image horizontally within the box */
+
+.intro2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url("../images/bengal-burger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 740px;
+}
+.intro {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url("../images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.callToAction {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  
+  padding: 0px 15px;
+  transition: transform 2s;
+}
+body, html {
+  font-family: "Autumn", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+      .intro h1, .intro2 h1 {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 200px;
+        padding: 10px;
+        font-size: 45px; 
+        color: #000000;
+        background-color: white;
+        background-size: 60px;
+      }
+
+      .firstBox {
+        background-color: rgb(165, 164, 164);
+        margin-left: 0;
+        margin-right: 0;
+        height: 130px;
+        padding-top: 20px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      h11 {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 20px;
+        margin-left: 40px;
+      }
+      .easyList,
+      .lessList {
+        display: flex;
+        padding-top: 10px;
+        align-items: left;
+      }
+    .easyList h12,
+.lessList h13 {
+  list-style-type: none;
+  margin-left: 60px;
+  padding: 0;
 }
 
-/* Style for the small boxes */
-.threeBox,
-.Box,
-.endBox {
-  border: 1px solid #ddd; /* Add a border for a visual separation */
-  padding: 10px; /* Add padding for spacing around the image */
-  text-align: center; /* Center-align content within the box */
-  background-color: #fff; /* Set a background color for the boxes */
-  margin-bottom: 20px; /* Adjust spacing between boxes */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lifted effect */
+.videoMaybe {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recipeTop {
+  text-align: center;
+  padding: 20px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.stars {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #c50f0f;
+}
+.reviewCount {
+  font-size: 18px;
+  color: #000000; 
+  margin-left: 5px;
+}
+.ratingSection {
+  display: flex;
+  align-items: center;
+}
+.propaganda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonSection {
+  display: flex;
+  align-items: center; 
+  margin-top: 20px;
+}
+.saveButton {
+  background-color: #c50f0f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.saveButton img {
+  width: 10px; 
+  margin-right: 10px;
 }
