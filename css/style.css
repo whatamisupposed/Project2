@@ -231,7 +231,7 @@ body, html {
         font-weight: bold;
         font-size: 28px;
         padding: 20px;
-        margin-left: 40px;
+        margin-left: 70px;
       }
       .easyList,
       .lessList {
@@ -242,10 +242,27 @@ body, html {
     .easyList h12,
 .lessList h13 {
   list-style-type: none;
-  margin-left: 60px;
+  margin-left: 90px;
   padding: 0;
 }
-
+.Ick {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 210px;
+}
+.Ick3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 210px;
+}
+.Ick2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 200px;
+}
 .videoMaybe {
   margin: 20px;
   display: flex;
@@ -297,6 +314,106 @@ body, html {
   cursor: pointer;
 }
 .saveButton img {
-  width: 10px; 
+
   margin-right: 10px;
 }
+.wallOfText h10 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+ h18 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.wallOfText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 40px; 
+}
+.right-list {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  margin-top: 0;
+}
+.left-list {
+  display: flex;
+  justify-content: flex-end;
+  width: 530px;
+}
+.headerTire {
+  margin-top: -20px;
+}
+.right-list ul,
+.left-list ol {
+  list-style-type: none;
+  padding: 0;
+}
+.right-list li,
+.left-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+.right-list li::before,
+.left-list li::before {
+  content: '\2022';
+  color: #000;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+}
+.section {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: -200px;
+}
+.greyBox {
+  background-color: rgb(165, 164, 164);
+  padding: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+ h16 {
+  color: #424242;
+  font-weight: bold;
+  padding: 20px;
+}
+.boxOfW {
+  width: 70%;
+  margin: 0 auto;
+}
+.left-list ol {
+  list-style-type: none;
+  padding: 0;
+}
+.left-list ol.numbered-list {
+  list-style-type: none; /* Remove list-style-type */
+  counter-reset: section; /* Reset counter for numbered list */
+}
+
+.left-list ol.numbered-list li {
+  position: relative;
+  counter-increment: section; /* Increment counter for each list item */
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.left-list ol.numbered-list li::before {
+  content: counter(section) ". "; /* Add counter and period after each number */
+  color: #000;
+  font-size: 1em;
+  position: absolute;
+  left: 0;
+}
+
